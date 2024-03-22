@@ -185,33 +185,33 @@
 </button>
 <ul class="panel absolute left-0 top-0 z-30 hidden w-max min-w-[10rem] flex-col rounded-sm bg-background text-foreground shadow-md" x-ref="panel" x-float.placement.bottom-start.shift="{shift:{padding: 16}}" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="/helmets">Helmets</a>
+<a class="block px-3 py-3" role="menuitem" href="helmets.html">Helmets</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="/riding-gear">Riding Gear</a>
+<a class="block px-3 py-3" role="menuitem" href="ridinggear.html">Riding Gear</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="/oil-and-lubricants">Oil &amp; Lubricants</a>
+<a class="block px-3 py-3" role="menuitem" href="oilandlubricants.htmls">Oil &amp; Lubricants</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="/motorcycle-covers">Covers</a>
+<a class="block px-3 py-3" role="menuitem" href="motocyclecovers.html">Covers</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="/bike-parts">Bike Parts</a>
+<a class="block px-3 py-3" role="menuitem" href="bikeparts.html">Bike Parts</a>
 </li>
 </ul>
 </li><li class="hidden lg:block text-lg " role="menuitem">
-<a class="uppercase" itemprop="url" href="/abouthtml">About</a>
+<a class="uppercase" itemprop="url" href="about.html">About</a>
 </li><li class="hidden lg:block text-lg " role="menuitem">
-<a class="uppercase" itemprop="url" href="/contact">Contact</a>
+<a class="uppercase" itemprop="url" href="contact.html">Contact</a>
 </li><li class="hidden lg:block text-lg " role="menuitem">
-<a class="uppercase" itemprop="url" href="/store">Store</a>
+<a class="uppercase" itemprop="url" href="store.html">Store</a>
 </li>
 <li class="hidden lg:block" role="menuitem">
-<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" itemprop="url" href="/contact">Contact</a>
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" itemprop="url" href="contact.html">Contact</a>
 </li>
 <li id="cart_icon" x-sync class="hidden" role="menuitem">
-<a href="/store/cart" class="relative flex items-center justify-center px-2" itemprop="url" aria-label="Cart" x-on:click.prevent.stop="$store.cart.isOpen = !$store.cart.isOpen">
+<a href="store.html/cart" class="relative flex items-center justify-center px-2" itemprop="url" aria-label="Cart" x-on:click.prevent.stop="$store.cart.isOpen = !$store.cart.isOpen">
 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" class="fill-current">
 <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
 </svg>
@@ -226,7 +226,7 @@
 </button>
 </li>
 </ul>
-<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text lg:hidden" href="/contact">Contact</a>
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text lg:hidden" href="contact.html">Contact</a>
 </nav>
 <div class="fixed inset-0 z-30 bg-black/50 lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
 <div class="navbar fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-background px-8 shadow-md lg:ml-[60vw] lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.menu.isOpen = false" x-on:click.outside="$store.menu.isOpen = false">
@@ -246,37 +246,37 @@
 </div>
 <ul class="flex flex-col overflow-hidden pl-4 transition-all duration-100" x-ref="menu1" style="max-height: initial" x-bind:style="(!expand || $refs.menu1.scrollHeight) ? expand ? 'max-height: ' + $refs.menu1.scrollHeight + 'px' : 'max-height: 0' : 'max-height: initial'">
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="/helmets">Helmets</a>
+<a class="my-3 block" href="helmets.html">Helmets</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="/riding-gear">Riding Gear</a>
+<a class="my-3 block" href="ridinggear.html">Riding Gear</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="/oil-and-lubricants">Oil &amp; Lubricants</a>
+<a class="my-3 block" href="oilandlubricants.htmls">Oil &amp; Lubricants</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="/motorcycle-covers">Covers</a>
+<a class="my-3 block" href="motocyclecovers.html">Covers</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="/bike-parts">Bike Parts</a>
+<a class="my-3 block" href="bikeparts.html">Bike Parts</a>
 </li>
 </ul>
 </li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
-<a class="my-3 block" href="/abouthtml">About</a>
+<a class="my-3 block" href="about.html">About</a>
 </li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
-<a class="my-3 block" href="/contact">Contact</a>
+<a class="my-3 block" href="contact.html">Contact</a>
 </li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
-<a class="my-3 block" href="/store">Store</a>
+<a class="my-3 block" href="store.html">Store</a>
 </li>
 <li class="mt-auto lg:hidden">
-<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" href="/contact">Contact</a>
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" href="contact.html">Contact</a>
 </li>
 </ul>
 </div><div class="fixed inset-0 z-30 bg-black/50" style="display:none" x-show="$store.cart.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
 <div class="cart fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-alt px-8 text-alt-text shadow-md lg:ml-auto lg:w-[42rem]" style="display:none" x-show="$store.cart.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.cart.isOpen = false" x-on:click.outside="$store.cart.isOpen = false">
 <div class="flex flex-grow flex-col gap-4 py-12">
 <div class="text-3xl">Your Cart</div>
-<form id="cart_flyout" method="post" action="/store/cart" class="flex flex-col-reverse gap-4 @container" x-data="{loading: false, target: null, changed: false}" x-init x-sync x-target x-on:submit.debounce.150ms="if (target) { loading = true; }" x-on:pagehide.window="loading = false; target = null;" x-on:ajax:after="loading = false; target = null" x-on:ajax:success="changed = false; setTimeout(function(){ if (!document.querySelector('#cart_flyout button[type=submit]')) $store.cart.isOpen = false; })">
+<form id="cart_flyout" method="post" action="store.html/cart" class="flex flex-col-reverse gap-4 @container" x-data="{loading: false, target: null, changed: false}" x-init x-sync x-target x-on:submit.debounce.150ms="if (target) { loading = true; }" x-on:pagehide.window="loading = false; target = null;" x-on:ajax:after="loading = false; target = null" x-on:ajax:success="changed = false; setTimeout(function(){ if (!document.querySelector('#cart_flyout button[type=submit]')) $store.cart.isOpen = false; })">
 <div class="flex flex-col p-4"><div class="text-center">Your cart is currently empty.</div></div>
 </form>
 </div>
@@ -292,7 +292,7 @@
 <div class="layer-content relative flex flex-col items-start justify-center gap-6 py-16 pb-24 md:py-32">
 <h1 class="from-left whitespace-pre-line break-words text-4xl font-semibold md:max-w-3xl lg:text-6xl text-overlay-text" x-data x-anim-fade>Gear up for the ride of your life</h1>
 <div class="delay-1 whitespace-pre-line break-words md:max-w-xl text-overlay-text" x-data x-anim-fade>Find high-quality bike accessories at MotoXHub and fuel your passion for adventure.</div>
-<a class="delay-2 button mt-2 bg-highlight-button text-highlight-button-text shadow-md" x-data x-anim-fade href="/contact">Reach Out</a>
+<a class="delay-2 button mt-2 bg-highlight-button text-highlight-button-text shadow-md" x-data x-anim-fade href="contact.html">Reach Out</a>
 </div>
 </div>
 </div>
@@ -366,7 +366,7 @@
 <div class="from-bottom whitespace-pre-line break-words text-3xl font-semibold lg:text-4xl" x-data x-anim-fade>Explore our high-quality bike accessories and parts</div>
 <div class="whitespace-pre-line break-words">We specialize in providing a wide range of top-notch bike accessories and parts to cater to the needs of all bike enthusiasts.</div>
 </div>
-<a href="/helmets" class="stagger-0 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
+<a href="helmets.html" class="stagger-0 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=960,width=960/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 960w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=1024,width=1024/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 1024w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
 <div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
@@ -381,7 +381,7 @@
 </svg>
 </div>
 </div>
-</a><a href="/riding-gear" class="stagger-1 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
+</a><a href="ridinggear.html" class="stagger-1 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 640w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
 <div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
@@ -396,7 +396,7 @@
 </svg>
 </div>
 </div>
-</a><a href="/oil-and-lubricants" class="stagger-2 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
+</a><a href="oilandlubricants.htmls" class="stagger-2 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=960,width=960/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 960w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
 <div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
@@ -411,7 +411,7 @@
 </svg>
 </div>
 </div>
-</a><a href="/motorcycle-covers" class="stagger-3 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
+</a><a href="motocyclecovers.html" class="stagger-3 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 640w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
 <div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
@@ -426,7 +426,7 @@
 </svg>
 </div>
 </div>
-</a><a href="/bike-parts" class="stagger-4 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
+</a><a href="bikeparts.html" class="stagger-4 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=480/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 960w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hw53r04xi4ok6am2vwi5u.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
 <div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
@@ -644,7 +644,7 @@ apply.
 <div class="flex min-w-0 flex-col md:basis-2/3 lg:basis-1/2">
 <div class="heading-typical mt-2 max-w-3xl whitespace-pre-line break-words font-semibold">Tired of settling for mediocre bike accessories?</div>
 <div class="mt-6 max-w-3xl whitespace-pre-line break-words">Don't compromise on safety, style, or performance. Choose MotoXHub for top-notch gear that exceeds your expectations.</div>
-<a class="button mt-8 self-start border-2 border-current text-current shadow-md" href="/contact">Contact</a>
+<a class="button mt-8 self-start border-2 border-current text-current shadow-md" href="contact.html">Contact</a>
 </div>
 </div>
 </div>
@@ -686,9 +686,9 @@ apply.
 <div class="layer-content mt-2 flex w-full flex-col gap-4 border-t border-neutral-500 pt-2 lg:flex-row lg:items-center lg:justify-between">
 <div class="hidden lg:block"></div>
 <div class="flex flex-wrap justify-start gap-6 py-2 lg:max-w-md lg:justify-end">
-<a class="block underline" href="/privacypolicyhtml">
+<a class="block underline" href="privacypolicy.html">
 Privacy Policy</a>
-<a class="block underline" href="/terms-of-use">
+<a class="block underline" href="termsofuse.html">
 Terms of Use</a>
 </div>
 </div>
