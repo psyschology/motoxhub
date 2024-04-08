@@ -280,40 +280,38 @@
 </form>
 </div>
 </div>
- <div class="store-page layer mt-4 bg-background text-foreground">
-    <div class="layer-content flex flex-col items-center gap-4 py-8">
-      <h2 class="text-2xl lg:text-3xl font-semibold">Our Products</h2>
-      <div class="product-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div class="product-card shadow-lg bg-white rounded-lg p-4">
-          <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-2 rounded-md">
-          <h3 class="text-lg font-semibold">Product 1</h3>
-          <p class="text-sm text-gray-600">Description of Product 1</p>
-          <button
-            class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Products</button>
-        </div>
-        <div class="product-card shadow-lg bg-white rounded-lg p-4">
-          <img src="h1.png" alt="Product 2" class="w-full h-48 object-cover mb-2 rounded-md">
-          <h3 class="text-lg font-semibold">Product 2</h3>
-          <p class="text-sm text-gray-600">Description of Product 2</p>
-          <button
-            class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Products</button>
-        </div>
-        <div class="product-card shadow-lg bg-white rounded-lg p-4">
-          <img src="h1.png" alt="Product 3" class="w-full h-48 object-cover mb-2 rounded-md">
-          <h3 class="text-lg font-semibold">Product 3</h3>
-          <p class="text-sm text-gray-600">Description of Product 3</p>
-          <button
-            class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Productst</button>
-        </div>
-        <!-- Repeat product card structure for additional products -->
+<div class="store-page layer mt-4 bg-background text-foreground">
+  <div class="layer-content flex flex-col items-center gap-4 py-8">
+    <h2 class="text-2xl lg:text-3xl font-semibold">Our Products</h2>
+    <div class="product-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="product-card shadow-lg bg-white rounded-lg p-4">
+        <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-2 rounded-md">
+        <h3 class="text-lg font-semibold text-black">Product 1</h3>
+        <p class="text-sm text-gray-800">Description of Product 1</p>
+        <button class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Products</button>
       </div>
+      <div class="product-card shadow-lg bg-white rounded-lg p-4">
+        <img src="h1.png" alt="Product 2" class="w-full h-48 object-cover mb-2 rounded-md">
+        <h3 class="text-lg font-semibold text-black">Product 2</h3>
+        <p class="text-sm text-gray-800">Description of Product 2</p>
+        <button class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Products</button>
+      </div>
+      <div class="product-card shadow-lg bg-white rounded-lg p-4">
+        <img src="h1.png" alt="Product 3" class="w-full h-48 object-cover mb-2 rounded-md">
+        <h3 class="text-lg font-semibold text-black">Product 3</h3>
+        <p class="text-sm text-gray-800">Description of Product 3</p>
+        <button class="mt-2 bg-black text-white rounded-md px-4 py-2 hover:bg-gray-900 transition-colors duration-300 ease-in-out transform hover:scale-105">View Products</button>
+      </div>
+      <!-- Repeat product card structure for additional products -->
     </div>
   </div>
+</div>
+
 <style>
   /* Add custom styling here */
   .product-card {
-    background-color: var(--foreground);
-    color: var(--alt-text);
+    background-color: #F3F4F6; /* Updated background color */
+    color: #000; /* Updated text color */
     border-radius: 0.75rem;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -321,13 +319,11 @@
   }
 
   .product-card:hover {
-    /* Add shadow effect on hover */
     transform: translateY(-5px);
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.08);
   }
 
   .product-card img {
-    /* Add rounded corners to product images */
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
     object-fit: cover;
@@ -342,14 +338,13 @@
 
   .product-card p {
     font-size: 1rem;
-    color: var(--tertiary-text);
+    color: #4B5563; /* Updated text color */
   }
 
   .product-card button {
-    /* Add more spacing between button and product description */
     margin-top: 1rem;
-    background-color: var(--button);
-    color: var(--button-text);
+    background-color: #000; /* Updated button background color */
+    color: #FFF; /* Updated button text color */
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
@@ -358,11 +353,11 @@
   }
 
   .product-card button:hover {
-    background-color: var(--alt-button);
-    color: var(--alt-button-text);
+    background-color: #4B5563; /* Updated button background color on hover */
     transform: scale(1.05);
   }
 </style>
+
 
 <footer class="layer mt-auto bg-black py-4 text-white">
 <div class="layer-content flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
