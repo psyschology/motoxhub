@@ -1,6 +1,6 @@
 # MotoXHub
 
-![MotoXHub](./h1.png)
+![MotoXHub]
 
 MotoXHub is a comprehensive online platform for motorcycle enthusiasts, providing a wide range of products and information related to motorcycles, bike parts, helmets, motorcycle covers, oil and lubricants, and more.
 
@@ -78,7 +78,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/psyschology)
 - **Website:** [MotoXHub](https://motoxhub.vercel.app)
 
-![MotoXHub](./gopal.png)
+![MotoXHub]
 ```
 
 You can adjust the content and links according to your project's specifics. Make sure to replace placeholders such as `your-username`, `your-email@example.com`, and `Your LinkedIn` with your actual details.
