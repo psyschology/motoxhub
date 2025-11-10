@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" class="h-full">
 <head>
@@ -28,9 +27,8 @@
 </noscript>
 <style>
   :root {
-      --menu-height: 5rem;
-   --menu-height: 10rem;
-   --logo-font: "Bangers";
+      --menu-height: 10rem;
+      --logo-font: "Bangers";
       --logo-weight: 400;
       --logo-size: 42px;
       --title-font: "Anton";
@@ -166,7 +164,7 @@
     " imagesizes="(min-width: 1024px) 25vw, 50vw">
 <meta property="og:title" content="Home">
 <meta property="og:image" content>
-<meta property="og:image:width" content="200">
+<meta property="og:image" content="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png">
 <meta property="og:image:height" content="113">
 </head>
 <body class="flex min-h-full flex-col bg-background text-foreground">
@@ -175,7 +173,7 @@
 <li class="logo mr-auto flex items-center">
 <a href="/" class="h-20 py-2" aria-label="Home">
 <img class="h-full w-full object-contain object-left" width="329" height="141" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1920w
-            " src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png" sizes="(min-width: 1024px) 25vw, 50vw" loading="eager" alt>
+            " src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png" sizes="(min-width: 1024px) 25vw, 50vw" loading="eager" alt="MotoXHub logo">
 </a></li><li class="component self-stretch hidden lg:flex text-lg " role="menuitem" x-data x-on:focusin.window="$refs.panel._x_isShown && !$refs.panel.contains($event.target) && $refs.panel.close()">
 <button type="button" class="flex cursor-pointer items-center gap-1" x-on:click="$refs.panel.toggle">
 <div class="uppercase">Bike Accessories</div>
@@ -191,7 +189,7 @@
 <a class="block px-3 py-3" role="menuitem" href="ridinggear.html">Riding Gear</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
-<a class="block px-3 py-3" role="menuitem" href="oilandlubricants.html">Oil &amp; Lubricants</a>
+<a class="block px-3 py-3" role="menuitem" href="oilandlubricants.html">Oil & Lubricants</a>
 </li>
 <li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
 <a class="block px-3 py-3" role="menuitem" href="motocyclecovers.html">Covers</a>
@@ -252,7 +250,7 @@
 <a class="my-3 block" href="ridinggear.html">Riding Gear</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
-<a class="my-3 block" href="oilandlubricants.html">Oil &amp; Lubricants</a>
+<a class="my-3 block" href="oilandlubricants.html">Oil & Lubricants</a>
 </li>
 <li class="text-xl capitalize " role="menuitem">
 <a class="my-3 block" href="motocyclecovers.html">Covers</a>
@@ -360,88 +358,12 @@
 </div>
 </div>
 <div class="layer">
-<div class="layer-content flex flex-col gap-6 pb-12 md:grid md:grid-cols-2 md:pb-24 lg:grid-cols-3">
+<div class="layer-content flex flex-col gap-6 pb-12 md:grid md:grid-cols-2 md:pb-24 lg:grid-cols-3" id="categories-grid">
 <div class="flex flex-col gap-2 p-5 md:col-span-2 lg:col-span-1">
 <div class="from-top subheading-typical whitespace-pre-line break-words font-semibold uppercase lg:text-lg" x-data x-anim-fade>Wide range of bike accessories</div>
 <div class="from-bottom whitespace-pre-line break-words text-3xl font-semibold lg:text-4xl" x-data x-anim-fade>Explore our high-quality bike accessories and parts</div>
 <div class="whitespace-pre-line break-words">We specialize in providing a wide range of top-notch bike accessories and parts to cater to the needs of all bike enthusiasts.</div>
 </div>
-<a href="helmets.html" class="stagger-0 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
-<img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=960,width=960/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 960w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=1024,width=1024/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg 1024w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2haiur04we4ok6gwr39g0e.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
-<div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
-<rect x="8" y="32" height="400" width="400" class="fill-highlight2" />
-<path d="M448 32H0V480H448V32zM337 209L209 337l-17 17-17-17-64-64-17-17L128 222.1l17 17 47 47L303 175l17-17L353.9 192l-17 17z" />
-</svg>
-<div class="whitespace-pre-line break-words text-2xl font-semibold lg:text-3xl">Protect</div>
-<div class="basis-18 whitespace-pre-line break-words">Choose from our stylish collection of helmets to ensure your safety on the road. Ride in style and stay protected!</div>
-<div class="absolute right-0 top-0 z-0 border-b-4 border-l-4 border-background p-2 transition-colors group-hover:bg-primary">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="h-10 w-10 fill-highlight2-button transition-colors group-hover:fill-primary-text">
-<path d="M320 96h32v32V352v32H288V352 205.3L86.6 406.6 64 429.3 18.7 384l22.6-22.6L242.7 160H96 64V96H96 320z" />
-</svg>
-</div>
-</div>
-</a><a href="ridinggear.html" class="stagger-1 from-right group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
-<img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg 640w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hbkt104wl4ok62vioevt8.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
-<div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
-<rect x="8" y="32" height="400" width="400" class="fill-highlight2" />
-<path d="M448 32H0V480H448V32zM337 209L209 337l-17 17-17-17-64-64-17-17L128 222.1l17 17 47 47L303 175l17-17L353.9 192l-17 17z" />
-</svg>
-<div class="whitespace-pre-line break-words text-2xl font-semibold lg:text-3xl">Style</div>
-<div class="basis-18 whitespace-pre-line break-words">Stay ahead of the fashion game with our trendy motorcycle riding gear. Ride in style and comfort wherever you go!</div>
-<div class="absolute right-0 top-0 z-0 border-b-4 border-l-4 border-background p-2 transition-colors group-hover:bg-primary">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="h-10 w-10 fill-highlight2-button transition-colors group-hover:fill-primary-text">
-<path d="M320 96h32v32V352v32H288V352 205.3L86.6 406.6 64 429.3 18.7 384l22.6-22.6L242.7 160H96 64V96H96 320z" />
-</svg>
-</div>
-</div>
-</a><a href="oilandlubricants.html" class="stagger-2 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
-<img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=960,width=960/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg 960w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hd0be04wdvcwhwrubksrz.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
-<div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
-<rect x="8" y="32" height="400" width="400" class="fill-highlight2" />
-<path d="M448 32H0V480H448V32zM337 209L209 337l-17 17-17-17-64-64-17-17L128 222.1l17 17 47 47L303 175l17-17L353.9 192l-17 17z" />
-</svg>
-<div class="whitespace-pre-line break-words text-2xl font-semibold lg:text-3xl">Smooth</div>
-<div class="basis-18 whitespace-pre-line break-words">Ensure the smooth functioning of your bike with our range of premium oils and lubricants. Keep your engine running smoothly!</div>
-<div class="absolute right-0 top-0 z-0 border-b-4 border-l-4 border-background p-2 transition-colors group-hover:bg-primary">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="h-10 w-10 fill-highlight2-button transition-colors group-hover:fill-primary-text">
-<path d="M320 96h32v32V352v32H288V352 205.3L86.6 406.6 64 429.3 18.7 384l22.6-22.6L242.7 160H96 64V96H96 320z" />
-</svg>
-</div>
-</div>
-</a><a href="motocyclecovers.html" class="stagger-3 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
-<img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=320,width=320/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=480,width=480/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=640,width=640/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg 640w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hv82004xa4ok6v1kbpme0.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
-<div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
-<rect x="8" y="32" height="400" width="400" class="fill-highlight2" />
-<path d="M448 32H0V480H448V32zM337 209L209 337l-17 17-17-17-64-64-17-17L128 222.1l17 17 47 47L303 175l17-17L353.9 192l-17 17z" />
-</svg>
-<div class="whitespace-pre-line break-words text-2xl font-semibold lg:text-3xl">Protect</div>
-<div class="basis-18 whitespace-pre-line break-words">Protect your bike from dust, scratches, and the elements with our high-quality motorcycle covers. Keep it looking brand new!</div>
-<div class="absolute right-0 top-0 z-0 border-b-4 border-l-4 border-background p-2 transition-colors group-hover:bg-primary">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="h-10 w-10 fill-highlight2-button transition-colors group-hover:fill-primary-text">
-<path d="M320 96h32v32V352v32H288V352 205.3L86.6 406.6 64 429.3 18.7 384l22.6-22.6L242.7 160H96 64V96H96 320z" />
-</svg>
-</div>
-</div>
-</a><a href="bikeparts.html" class="stagger-4 from-bottom group relative flex flex-col gap-2 bg-highlight2" x-data x-anim-fade>
-<img class="absolute inset-0 z-0 h-full w-full object-cover" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=480/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clu2fwvd204nuyrlwddldsd88/clu2kismf04v4yrlwjq97tx9g.jpg 960w" src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2hw53r04xi4ok6am2vwi5u.jpg" sizes="(min-width: 768px) 33vw, 100vw" alt loading="lazy">
-<div class="relative flex min-h-[20rem] flex-grow flex-col p-5 lg:p-8 bg-overlay text-overlay-text">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-16 w-16 fill-highlight2-button">
-<rect x="8" y="32" height="400" width="400" class="fill-highlight2" />
-<path d="M448 32H0V480H448V32zM337 209L209 337l-17 17-17-17-64-64-17-17L128 222.1l17 17 47 47L303 175l17-17L353.9 192l-17 17z" />
-</svg>
-<div class="whitespace-pre-line break-words text-2xl font-semibold lg:text-3xl">Reliable</div>
-<div class="basis-18 whitespace-pre-line break-words">Get reliable and high-performance bike parts to keep your ride running smoothly. Trust MotoXHub for all your biking needs!</div>
-<div class="absolute right-0 top-0 z-0 border-b-4 border-l-4 border-background p-2 transition-colors group-hover:bg-primary">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="h-10 w-10 fill-highlight2-button transition-colors group-hover:fill-primary-text">
-<path d="M320 96h32v32V352v32H288V352 205.3L86.6 406.6 64 429.3 18.7 384l22.6-22.6L242.7 160H96 64V96H96 320z" />
-</svg>
-</div>
-</div>
-</a>
 </div>
 </div>
 <div class="layer relative overflow-hidden bg-highlight">
@@ -501,7 +423,13 @@
 </div>
 </div>
 <div class="from-right relative aspect-[2] bg-tertiary lg:aspect-[1.45] lg:basis-1/2 " x-data x-anim-fade>
-<iframe loading="lazy" class="absolute inset-0 z-0 h-full w-full" src="https://www.youtube.com/embed/uO6sHgmuIvk?rel=0&autoplay=1&mute=1&loop=1&playlist=uO6sHgmuIvk" title="Moto X Hub | New shop in Howrah Liluah | Bike Accessories | Helmets,Accessories,Engine oil etc" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<iframe loading="lazy" class="absolute inset-0 z-0 h-full w-full" 
+        src="https://www.youtube.com/embed/uO6sHgmuIvk?rel=0&autoplay=1&mute=1&loop=1&playlist=uO6sHgmuIvk" 
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="Moto X Hub | New shop in Howrah Liluah | Bike Accessories | Helmets,Accessories,Engine oil etc" 
+        allowfullscreen 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+</iframe>
 </div>
 </div>
 </div>
@@ -519,52 +447,8 @@
         }
       ">
 <div x-ref="viewport">
-<div class="flex">
-<div class="flex flex-none basis-full flex-col px-8">
-<div class="relative flex flex-grow flex-col items-center gap-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10 fill-current">
-<path d="M192 296c0 66.3-53.7 120-120 120H64 32l0-64H64h8c30.9 0 56-25.1 56-56v-8L0 288V96H192l0 96v96 8zm256 0c0 66.3-53.7 120-120 120h-8H288V352h32 8c30.9 0 56-25.1 56-56v-8l-128 0 0-192H448v96l0 96v8z" />
-</svg>
-<div class="max-w-md basis-24 whitespace-pre-line break-words text-center text-lg italic lg:basis-24 xl:text-xl">I couldn't be happier with the products I bought from MotoXHub. The riding gear is top-notch and the helmets are comfortable and stylish. The prices are competitive, and the shipping was fast. Highly recommended!</div>
-<div class="whitespace-pre-line break-words text-center font-semibold uppercase lg:text-lg">Jon D.</div>
-</div>
-</div>
-<div class="flex flex-none basis-full flex-col px-8">
-<div class="relative flex flex-grow flex-col items-center gap-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10 fill-current">
-<path d="M192 296c0 66.3-53.7 120-120 120H64 32l0-64H64h8c30.9 0 56-25.1 56-56v-8L0 288V96H192l0 96v96 8zm256 0c0 66.3-53.7 120-120 120h-8H288V352h32 8c30.9 0 56-25.1 56-56v-8l-128 0 0-192H448v96l0 96v8z" />
-</svg>
-<div class="max-w-md basis-24 whitespace-pre-line break-words text-center text-lg italic lg:basis-24 xl:text-xl">MotoXHub is my go-to store for all my bike accessories needs. The quality of their products is unmatched, and they always offer great deals. I have been a loyal customer for years and will continue to be.</div>
-<div class="whitespace-pre-line break-words text-center font-semibold uppercase lg:text-lg">Laura M.</div>
-</div>
-</div>
-<div class="flex flex-none basis-full flex-col px-8">
-<div class="relative flex flex-grow flex-col items-center gap-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10 fill-current">
-<path d="M192 296c0 66.3-53.7 120-120 120H64 32l0-64H64h8c30.9 0 56-25.1 56-56v-8L0 288V96H192l0 96v96 8zm256 0c0 66.3-53.7 120-120 120h-8H288V352h32 8c30.9 0 56-25.1 56-56v-8l-128 0 0-192H448v96l0 96v8z" />
-</svg>
-<div class="max-w-md basis-24 whitespace-pre-line break-words text-center text-lg italic lg:basis-24 xl:text-xl">As a professional rider, I rely on MotoXHub for high-quality gear that keeps me safe on the road. The selection of helmets is impressive, and the staff is knowledgeable and helpful. I recommend them to fellow riders.</div>
-<div class="whitespace-pre-line break-words text-center font-semibold uppercase lg:text-lg">Mike R.</div>
-</div>
-</div>
-<div class="flex flex-none basis-full flex-col px-8">
-<div class="relative flex flex-grow flex-col items-center gap-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10 fill-current">
-<path d="M192 296c0 66.3-53.7 120-120 120H64 32l0-64H64h8c30.9 0 56-25.1 56-56v-8L0 288V96H192l0 96v96 8zm256 0c0 66.3-53.7 120-120 120h-8H288V352h32 8c30.9 0 56-25.1 56-56v-8l-128 0 0-192H448v96l0 96v8z" />
-</svg>
-<div class="max-w-md basis-24 whitespace-pre-line break-words text-center text-lg italic lg:basis-24 xl:text-xl">MotoXHub has a wide range of bike parts and accessories, making it easy for me to find what I need for my custom builds. The prices are reasonable, and the products are durable and well-made.</div>
-<div class="whitespace-pre-line break-words text-center font-semibold uppercase lg:text-lg">Emily S.</div>
-</div>
-</div>
-<div class="flex flex-none basis-full flex-col px-8">
-<div class="relative flex flex-grow flex-col items-center gap-2">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-10 w-10 fill-current">
-<path d="M192 296c0 66.3-53.7 120-120 120H64 32l0-64H64h8c30.9 0 56-25.1 56-56v-8L0 288V96H192l0 96v96 8zm256 0c0 66.3-53.7 120-120 120h-8H288V352h32 8c30.9 0 56-25.1 56-56v-8l-128 0 0-192H448v96l0 96v8z" />
-</svg>
-<div class="max-w-md basis-24 whitespace-pre-line break-words text-center text-lg italic lg:basis-24 xl:text-xl">I'm a commuter who travels long distances every day, and I trust MotoXHub to provide me with reliable bike accessories. The motorcycle covers protect my bike from the elements, while the oil and lubricants keep it running smoothly.</div>
-<div class="whitespace-pre-line break-words text-center font-semibold uppercase lg:text-lg">Alex T.</div>
-</div>
-</div>
+<div class="flex" id="testimonial-slides-container">
+
 </div>
 </div>
 <button x-on:click="embla.scrollPrev()" class="absolute left-0 top-1/2 -mt-4 h-8 w-8 text-current" type="button" aria-label="Previous">
@@ -608,7 +492,7 @@
 <label class="text-lg font-semibold" for="service">Subject</label>
 <select id="service" name="service" class="input heading" required>
 <option value disabled selected>Subject</option>
-<option value="Helmets">Helmets</option><option value="Riding Gear">Riding Gear</option><option value="Oil &amp; Lubricants">Oil &amp; Lubricants</option><option value="Covers">Covers</option><option value="Bike Parts">Bike Parts</option>
+<option value="Helmets">Helmets</option><option value="Riding Gear">Riding Gear</option><option value="Oil & Lubricants">Oil & Lubricants</option><option value="Covers">Covers</option><option value="Bike Parts">Bike Parts</option>
 <option value="All">All of the Above</option>
 <option value="Other">Other</option>
 </select>
@@ -655,9 +539,10 @@ apply.
 <img class="h-full w-full object-contain object-left" width="329" height="141" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png 1920w
             " src="https://image-assets.turncage.com/clu2fwvd204nuyrlwddldsd88/clu2h6h3w04rhyrlwyvft8jll.png" sizes="(min-width: 1024px) 25vw, 80vw" loading="lazy" alt>
 </div>
-<div class="py-1 font-bold lg:py-0">24, G. T Road Near Inox RD Mall Howrah, IN 71220</div><div class="flex flex-col lg:flex-row lg:gap-6">
-<a class="flex items-center gap-2 py-1" href="tel:82401 09598">82401 09598</a>
-<a class="flex items-center gap-2 py-1" href="mailto:support@motoxhub.com">support@motoxhub.com</a>
+<div class="py-1 font-bold lg:py-0" id="footer-address">24, G. T Road Near Inox RD Mall Howrah, IN 71220</div>
+<div class="flex flex-col lg:flex-row lg:gap-6">
+<a class="flex items-center gap-2 py-1" href="tel:82401 09598" id="footer-phone">82401 09598</a>
+<a class="flex items-center gap-2 py-1" href="mailto:support@motoxhub.com" id="footer-email">support@motoxhub.com</a>
 </div>
 </div>
 <div class="flex flex-wrap justify-start gap-3 py-2 lg:max-w-md lg:justify-end">
@@ -697,7 +582,12 @@ Terms of Use</a>
 <div class="layer-content flex items-center justify-between">
 <a class="flex items-center font-sans text-xs text-[#CDD5E0] md:text-sm" href="https://turncage.com">
 <span class="mt-1">Created by : psyschology </span>
+</a>
+</div>
+</div>
 <script defer src="script.js"></script>
 <script defer src="script1.js"></script>
+<script type="module" src="sanity.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "motoxhub",
+  "version": "1.0.0",
+  "description": "MotoXHub is a comprehensive online platform for motorcycle enthusiasts, providing a wide range of products and information related to motorcycles, bike parts, helmets, motorcycle covers, oil and lubricants, and more.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshbiyani/motoxhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanshbiyani/motoxhub/issues"
+  },
+  "homepage": "https://github.com/devanshbiyani/motoxhub#readme",
+  "dependencies": {
+    "@sanity/client": "^7.12.1",
+    "@sanity/image-url": "^1.2.0"
+  }
+}
